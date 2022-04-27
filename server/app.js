@@ -28,9 +28,9 @@ app.use('/users', usersRouter);
 const geoKey = "4120607b14064b6f80abcef15b430167";
 
 app.get('/api/location', async function(req, res) {
-    // let ip = req.ip; // useless for testing
+    // let ip = req.ip; 
 
-    let ip = "2607:fa49:6800:8700:2c92:8908:81fe:c31a"; // used for testing
+    let ip = "2607:fa49:6800:8700:2c92:8908:81fe:c31a"; 
     //let ip= req.ip; 
     console.log(ip);
     
